@@ -9,4 +9,5 @@ Run Docker Image:
 docker run --rm -ti villim/openmq:5.1.2
 
 Checking Message in Queue:
-sh /usr/local/openmq/MessageQueue5_1_2/mq/bin/imqcmd list svc -u admin -passfile /usr/local/openmq/imq-passfile
+sh /usr/local/openmq/MessageQueue5_1_2/mq/bin/imqcmd list svc -u admin -passfile /usr/local/openmq/MessageQueue5_1_2/imq-passfile
+sh /usr/local/openmq/MessageQueue5_1_2/mq/bin/imqcmd list dst -u admin -passfile /usr/local/openmq/MessageQueue5_1_2/imq-passfile
