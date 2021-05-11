@@ -29,13 +29,13 @@ RUN cd /usr/local/openmq/MessageQueue5_1_2 && \
 
 # when need over write configurations
 #ADD /config/default.properties /usr/local/openmq/MessageQueue5_1_2/mq/lib/props/broker/default.properties
-#ADD /config/config.properties /usr/local/openmq/MessageQueue4_5/var/mq/instances/imqbroker/props/config.properties
+ADD /config/config.properties /usr/local/openmq/MessageQueue5_1_2/mq/var/instances/imqbroker/props/config.properties
 
 # portmapper & broker
 EXPOSE 7676
 
 # jms service
-#EXPOSE 7677
+EXPOSE 7677
 
 # ssljms service
 #EXPOSE 7678
