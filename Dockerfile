@@ -1,5 +1,6 @@
 #FROM java:8-jdk
-FROM java:openjdk-8-jre-alpine
+#FROM java:openjdk-8-jre-alpine
+FROM openjdk:8-jre-alpine
 LABEL William Wang <william.wang@126.com>
 
 ENV OPENMQ_VERSION 5.1.2
